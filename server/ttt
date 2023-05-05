@@ -1,0 +1,27 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css" >
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="heading">DATA EXTRACTION USING NODEJS</div>
+    <div class="card">
+        <form action="/extractdata" method="post" enctype="multipart/form-data">
+            <label for="file" class="upload">Upload</label>
+            <input type="file" name="file" accept="image/*" required id="">
+            <br/>
+            <button class="btn">Extract Data</button>
+        </form> 
+        <textarea cols="50" rows="30" class="text-area">
+            <%=data%>
+         </textarea>
+    </div>        
+    </div>
+
+</body>
